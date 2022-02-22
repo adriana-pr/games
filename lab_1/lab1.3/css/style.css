@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(45deg, #fddb92, #d1fdff) fixed;
+}
+.project-logo{
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+.project-logo img{
+    width: 90px;
+    margin-left:  10px;
+    position: relative;
+}
+.logo-information p{
+    width: 210px;
+    color: rgb(116, 112, 102);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    margin-left: 10px;
+}
+.logo-information img{
+    width: 55px;
+}
+.logo-information{
+display: none;
+position: absolute;
+}
+.project-logo:hover .logo-information{
+display: flex;
+
+}
+.project-menu{
+    background: #d2f2f4;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    border: 1px solid #5da4a9;
+}
+.menu-game{
+    border-right: 1px solid #5da4a9;
+    padding: 30px 40px;
+}
+.menu-game:first-child{
+    margin-left: 100px;
+    padding-left: 15px;
+}
+.menu-game a{
+ text-decoration: none;
+ color: rgb(116, 112, 102);
+ font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+}
+.menu-game:hover{
+    background: #a8c8cb;
+    box-shadow: 3px 3px 5px #9ab7ba;
+}
+
+.content{
+    margin: 170px auto 0;
+    width: 80%;
+    text-align: center;
+}
+.content h1{
+    margin-bottom: 50px;
+    font-family: 'Tinos', serif;
+    font-size: 60px;
+    color: rgb(116, 112, 102);
+}
+
+.out{
+    margin-bottom: 50px;
+    text-align: center;
+    border-bottom: 2px solid #5da4a9;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 25px;
+    padding-bottom: 5px;
+    color: rgb(116, 112, 102);
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: #5da4a9;
+    border: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.8s;
+} 
+.btn:hover{
+    background-color: #57888c;
+    transform: translate(-5px, 3px);
+}
+.content input{
+ height: 30px;
+ width: 200px;
+ padding-left: 10px;
+ outline: none;
+ text-align: center;
+ font-size: 16px;
+}
+.reply{
+    font-family: 'Tinos', serif;
+    margin-top: 20px;
+    font-size: 30px; 
+    /* display: none; */
+}
+.active{
+    display: block;
+}
